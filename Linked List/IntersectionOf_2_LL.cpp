@@ -5,7 +5,7 @@
 // in the optimized approach, we took two pointers having values of headA and headB respectively
 // then while the value of p1 and p2 is not same, we will iterate them node by node, and when p1 reaches null then we will assign headB to it and same with p2. if both lists intersect, they will come to same node,
 // and if not then at lasty both will become NULL. return the resultant node (either p1 or p2).
-// time: O(m+n)
+// time: O(m+n).
 // space: O(1)
 // link: https://leetcode.com/problems/intersection-of-two-linked-lists/description/
 
