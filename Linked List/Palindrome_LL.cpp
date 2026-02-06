@@ -5,7 +5,7 @@
 // then to optimize it further we first moved slow and fast pointer, and when slow reaches the middle node, and after considering both odd and even lenth of the list, we then will reverse the second half of the list
 // then we will take 2 pointers, first on starting from head, and next one from the starting of second half, and compare them one by one, if at any point they are not equal then return false else at last return true
 // time: O(n)
-// space: O(1)
+// space: O(1)..
 // link: https://leetcode.com/problems/palindrome-linked-list/
 
 /**
